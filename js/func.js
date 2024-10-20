@@ -13,7 +13,7 @@ const description_span = document.querySelector('#description')
 const icon_img = document.querySelector('img')
 
 //function that retvieves user's position; browser will ask for permission to use location
-
+// HOX! EN SAANUT TOIMIMAAN OHJEEN ESIMERKILLÄ ? 
 const getLocation = () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition((position) => {
